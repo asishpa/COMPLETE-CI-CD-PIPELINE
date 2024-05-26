@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Demo Web App</title>
+    <title>Demo Web Application</title>
 </head>
 <body>
     <h1>Welcome to My Demo Web App</h1>
