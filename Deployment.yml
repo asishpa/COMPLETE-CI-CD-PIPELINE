@@ -8,7 +8,7 @@ spec:
   startegy:
     type: Recreate
   selector:
-    matchlabels:
+    matchLabels:
       app: mavenwebapp
   template:
     metadata:
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: mavenwebappcontainer
-        iamge: asishdevops/mavenwebapp
+        image: asishdevops/mavenwebapp
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
