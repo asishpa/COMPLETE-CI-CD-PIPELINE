@@ -5,7 +5,7 @@ metadata:
   name: mavenwebappdeployment
 spec:
   replicas: 2
-  startegy:
+  strategy:
     type: Recreate
   selector:
     matchLabels:
