@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" import="java.util.Date" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,8 +9,6 @@
     <h1>Welcome to My Demo Web App</h1>
     
     <%
-        // Importing required classes
-        import java.util.Date;
         // Getting the current date and time
         Date currentDate = new Date();
     %>
